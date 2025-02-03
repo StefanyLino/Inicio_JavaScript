@@ -1,2 +1,2 @@
-# Inicio_JavaScript
+# Inicio JavaScript
  
