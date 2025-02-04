@@ -7,14 +7,34 @@
     <title>Calculadora</title>
 </head>
 <body>
-    <h1>CALCULADORA</h1>
-    <input type="text" placeholder="Primeiro valor" id="num1">
-    <input type="text" placeholder="Segundo valor" id="num2">
-    <button onclick="adicao()">Adição</button>
-    <button onclick="subtracao()">Subtração</button>
-    <button onclick="divisao()">Divisão</button>
-    <button onclick="multiplicacao()">Multiplicação</button>
-    <p id="resultado"></p>
+
+    <main>
+    <div class="title">
+        <h1>CALCULADORA ⋆⭒˚.⋆</h1>
+    </div>
+    <div class="calculo">
+        <div class="calc1"><input type="text" placeholder=" Primeiro valor..." id="num1"></div>
+        <div class="calc2"><input type="text" placeholder=" Segundo valor..." id="num2"></div>
+    </div>
+    <div class="botoes">
+        <div class="bot1">
+            <div class="adicao"><button onclick="adicao()">Adição</button></div>
+            <div class="subtracao"><button onclick="subtracao()">Subtração</button></div>
+        </div>
+        <div class="bot2">
+            <div class="divisao"><button onclick="divisao()">Divisão</button></div>
+            <div class="multiplicacao"><button onclick="multiplicacao()">Multiplicação</button></div>
+        </div>
+    </div>
+    <div class="resultado">
+        <p>RESULTADO:</p> 
+        <p id="resultado"></p>
+    </div>
+    
+    <a href="conversor.html">CONVERSOR</a>
+    </main>
+
+
     <script src="script.js"></script>
 </body>
 </html>
