@@ -45,10 +45,10 @@
 #anterior, #proximo{
     position: absolute;
     top: 50%;
-    transform: translate(-50%);
+    transform: translateY(-50%);
     width: 50px;
     height: 50px;
-    background-color: #eee();
+    background-color: #eee9;
     border: 1px solid #eee9;
     color: #eee;
     font-size: x-large;
@@ -56,5 +56,4 @@
     cursor: pointer;
     z-index: 4;
     border-radius: 50%;
-
 }
