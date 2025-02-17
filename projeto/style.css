@@ -57,3 +57,11 @@
     z-index: 4;
     border-radius: 50%;
 }
+
+#anterior{
+    left: 30px;
+}
+
+#proximo{
+    right: 30px;
+}
