@@ -24,6 +24,9 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    z-index: 5;
+    text-shadow: 5px 5px 5px var(--background);
+   
 }
 
 .item .fruta{
@@ -64,4 +67,19 @@
 
 #proximo{
     right: 30px;
+}
+
+@keyframes mexer{
+    from{
+        top: 100%;
+        opacity: 0;
+    }
+}
+
+.item.ativo img.fruta{
+    animation: mexer 0.7s ease-in-out 1;
+}
+
+.item.ativo .titulo{
+    animation: mexer 0.7s ease-in-out 1;
 }
